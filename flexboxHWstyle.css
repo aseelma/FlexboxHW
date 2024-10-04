@@ -1,0 +1,170 @@
+.main-nav
+{
+    height: 70px;
+    background-color: rgb(87, 86, 86);
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.main 
+{ 
+    display: flex;
+    justify-content: space-between;
+    column-gap: 50px;
+
+
+}
+
+.main .left nav 
+{
+    height: 50px;
+    display: block;
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 10px;
+
+}
+
+.left nav div
+{
+    background-color: rgb(106, 106, 106);
+    
+    width: 20%;
+
+}
+
+.left .box1
+{
+    background-color: rgb(36, 35, 35);
+
+}
+
+.main .left
+{
+    flex-basis: 67%;
+    /* display: flex; */
+    display: flex;
+    /* border: 1px solid blue; */
+    flex-direction: column;
+    row-gap: 10px;
+
+}
+
+.main .left .cards 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 10px;
+    
+}
+  .cards .card 
+{
+    flex-basis: 18%;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+  
+  .cards .card img 
+{
+    width: 100%;
+    height: 130px;
+    background-color: #999;
+  
+}
+
+.left .bodyy
+{
+    height: 300px;
+    width: 100%;
+    display: block;
+    background-color: rgb(36, 35, 35);
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
+}
+  
+.main .right 
+{
+    flex-basis: 30%;
+    display: flex;
+    /* border: 1px solid blue; */
+    flex-direction: column;
+    row-gap: 10px;
+}
+  
+  .main .right .banner 
+{
+    flex-grow: 0;
+    flex-basis: 100%;
+    max-height: 300px;
+    background-color: #777;
+}
+  
+  .main .right .featured 
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  
+}
+  
+  .main .right .featured h2 
+{
+    height: 25px;
+    background-color: #555;
+    margin: 0;
+}
+
+.main .right .featured .item 
+{
+    height: 150px;
+    align-content: center;
+
+}
+ 
+.main .right .featured .item p 
+{
+    margin: 20px;
+    align-content: center;
+}
+  .main .right .featured .item img 
+{
+    background-color: #999;
+    width: 130px;
+    height: 130px;
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.main .right nav 
+{
+    height: 50px;
+    display: block;
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 10px;
+
+}
+
+.right nav div
+{
+    background-color: rgb(106, 106, 106);
+    width: 10%;
+
+}
+
+.right h3 #line
+{
+    height: 10px;
+    background-color: #555;
+}
